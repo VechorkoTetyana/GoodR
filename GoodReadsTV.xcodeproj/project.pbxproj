@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B80832AD2BFC9A0A00F3439F /* GoodReadsHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80832AB2BFC9A0A00F3439F /* GoodReadsHeaderCell.swift */; };
+		B80832AE2BFC9A0A00F3439F /* GoodReadsHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80832AC2BFC9A0A00F3439F /* GoodReadsHeaderCell.xib */; };
+		B80832B22BFCA72A00F3439F /* GoodReadsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80832B02BFCA72A00F3439F /* GoodReadsListCell.swift */; };
+		B80832B32BFCA72A00F3439F /* GoodReadsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80832B12BFCA72A00F3439F /* GoodReadsListCell.xib */; };
+		B80832B52BFCAE7700F3439F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80832B42BFCAE7700F3439F /* Book.swift */; };
+		B80832CE2BFE695800F3439F /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80832CD2BFE695800F3439F /* BookDetailViewController.swift */; };
+		B8FAED8E2BFA2698003FDE0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FAED8D2BFA2698003FDE0F /* AppDelegate.swift */; };
+		B8FAED902BFA2698003FDE0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FAED8F2BFA2698003FDE0F /* SceneDelegate.swift */; };
+		B8FAED922BFA2698003FDE0F /* GoodReadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FAED912BFA2698003FDE0F /* GoodReadsViewController.swift */; };
+		B8FAED952BFA2698003FDE0F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B8FAED942BFA2698003FDE0F /* Base */; };
+		B8FAED972BFA2699003FDE0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8FAED962BFA2699003FDE0F /* Assets.xcassets */; };
+		B8FAED9A2BFA2699003FDE0F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B8FAED992BFA2699003FDE0F /* Base */; };
+		B8FDBEA32BFF90C200CAA275 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDBEA22BFF90C200CAA275 /* CommentsViewController.swift */; };
+		B8FDBEA62BFF931E00CAA275 /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8FDBEA52BFF931E00CAA275 /* CommentsTableViewCell.xib */; };
+		B8FDBEA72BFF931E00CAA275 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDBEA42BFF931E00CAA275 /* CommentsTableViewCell.swift */; };
+		B8FDBEAB2C00A35600CAA275 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDBEAA2C00A35600CAA275 /* UIColor+hex.swift */; };
+		B8FDBEAD2C00A36500CAA275 /* UIView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDBEAC2C00A36500CAA275 /* UIView+CornerRadius.swift */; };
+		B8FDBEC72C11E46300CAA275 /* New for checking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDBEC62C11E46300CAA275 /* New for checking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B80832AB2BFC9A0A00F3439F /* GoodReadsHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodReadsHeaderCell.swift; sourceTree = "<group>"; };
+		B80832AC2BFC9A0A00F3439F /* GoodReadsHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodReadsHeaderCell.xib; sourceTree = "<group>"; };
+		B80832B02BFCA72A00F3439F /* GoodReadsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodReadsListCell.swift; sourceTree = "<group>"; };
+		B80832B12BFCA72A00F3439F /* GoodReadsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodReadsListCell.xib; sourceTree = "<group>"; };
+		B80832B42BFCAE7700F3439F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		B80832CD2BFE695800F3439F /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		B8FAED8A2BFA2698003FDE0F /* GoodReadsTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodReadsTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8FAED8D2BFA2698003FDE0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8FAED8F2BFA2698003FDE0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B8FAED912BFA2698003FDE0F /* GoodReadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodReadsViewController.swift; sourceTree = "<group>"; };
+		B8FAED942BFA2698003FDE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8FAED962BFA2699003FDE0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8FAED992BFA2699003FDE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8FAED9B2BFA2699003FDE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8FDBEA22BFF90C200CAA275 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		B8FDBEA42BFF931E00CAA275 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
+		B8FDBEA52BFF931E00CAA275 /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
+		B8FDBEAA2C00A35600CAA275 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		B8FDBEAC2C00A36500CAA275 /* UIView+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CornerRadius.swift"; sourceTree = "<group>"; };
+		B8FDBEC62C11E46300CAA275 /* New for checking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New for checking.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8FAED872BFA2698003FDE0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B80832A62BFC929F00F3439F /* GoodReadsHeaderCell */ = {
+			isa = PBXGroup;
+			children = (
+				B80832AB2BFC9A0A00F3439F /* GoodReadsHeaderCell.swift */,
+				B80832AC2BFC9A0A00F3439F /* GoodReadsHeaderCell.xib */,
+			);
+			path = GoodReadsHeaderCell;
+			sourceTree = "<group>";
+		};
+		B80832AF2BFCA70400F3439F /* GoodReadsListCell */ = {
+			isa = PBXGroup;
+			children = (
+				B80832B02BFCA72A00F3439F /* GoodReadsListCell.swift */,
+				B80832B12BFCA72A00F3439F /* GoodReadsListCell.xib */,
+			);
+			path = GoodReadsListCell;
+			sourceTree = "<group>";
+		};
+		B80832B62BFCAE8600F3439F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B80832B42BFCAE7700F3439F /* Book.swift */,
+				B8FDBEC62C11E46300CAA275 /* New for checking.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B80832CC2BFE693200F3439F /* BookDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B80832CD2BFE695800F3439F /* BookDetailViewController.swift */,
+			);
+			path = BookDetail;
+			sourceTree = "<group>";
+		};
+		B8FAED812BFA2698003FDE0F = {
+			isa = PBXGroup;
+			children = (
+				B8FAED8C2BFA2698003FDE0F /* GoodReadsTV */,
+				B8FAED8B2BFA2698003FDE0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8FAED8B2BFA2698003FDE0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8FAED8A2BFA2698003FDE0F /* GoodReadsTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8FAED8C2BFA2698003FDE0F /* GoodReadsTV */ = {
+			isa = PBXGroup;
+			children = (
+				B8FDBEA92C00A33E00CAA275 /* Util */,
+				B8FDBEA12BFF908900CAA275 /* Comments */,
+				B80832CC2BFE693200F3439F /* BookDetail */,
+				B80832B62BFCAE8600F3439F /* Model */,
+				B80832AF2BFCA70400F3439F /* GoodReadsListCell */,
+				B80832A62BFC929F00F3439F /* GoodReadsHeaderCell */,
+				B8FAED8D2BFA2698003FDE0F /* AppDelegate.swift */,
+				B8FAED8F2BFA2698003FDE0F /* SceneDelegate.swift */,
+				B8FAED912BFA2698003FDE0F /* GoodReadsViewController.swift */,
+				B8FAED932BFA2698003FDE0F /* Main.storyboard */,
+				B8FAED962BFA2699003FDE0F /* Assets.xcassets */,
+				B8FAED982BFA2699003FDE0F /* LaunchScreen.storyboard */,
+				B8FAED9B2BFA2699003FDE0F /* Info.plist */,
+			);
+			path = GoodReadsTV;
+			sourceTree = "<group>";
+		};
+		B8FDBEA12BFF908900CAA275 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				B8FDBEA22BFF90C200CAA275 /* CommentsViewController.swift */,
+				B8FDBEA42BFF931E00CAA275 /* CommentsTableViewCell.swift */,
+				B8FDBEA52BFF931E00CAA275 /* CommentsTableViewCell.xib */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		B8FDBEA92C00A33E00CAA275 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				B8FDBEAA2C00A35600CAA275 /* UIColor+hex.swift */,
+				B8FDBEAC2C00A36500CAA275 /* UIView+CornerRadius.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8FAED892BFA2698003FDE0F /* GoodReadsTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FAED9E2BFA2699003FDE0F /* Build configuration list for PBXNativeTarget "GoodReadsTV" */;
+			buildPhases = (
+				B8FAED862BFA2698003FDE0F /* Sources */,
+				B8FAED872BFA2698003FDE0F /* Frameworks */,
+				B8FAED882BFA2698003FDE0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodReadsTV;
+			productName = GoodReadsTV;
+			productReference = B8FAED8A2BFA2698003FDE0F /* GoodReadsTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8FAED822BFA2698003FDE0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B8FAED892BFA2698003FDE0F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = B8FAED852BFA2698003FDE0F /* Build configuration list for PBXProject "GoodReadsTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8FAED812BFA2698003FDE0F;
+			productRefGroup = B8FAED8B2BFA2698003FDE0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8FAED892BFA2698003FDE0F /* GoodReadsTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8FAED882BFA2698003FDE0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FAED972BFA2699003FDE0F /* Assets.xcassets in Resources */,
+				B80832AE2BFC9A0A00F3439F /* GoodReadsHeaderCell.xib in Resources */,
+				B8FAED9A2BFA2699003FDE0F /* Base in Resources */,
+				B80832B32BFCA72A00F3439F /* GoodReadsListCell.xib in Resources */,
+				B8FAED952BFA2698003FDE0F /* Base in Resources */,
+				B8FDBEA62BFF931E00CAA275 /* CommentsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8FAED862BFA2698003FDE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80832B22BFCA72A00F3439F /* GoodReadsListCell.swift in Sources */,
+				B8FAED922BFA2698003FDE0F /* GoodReadsViewController.swift in Sources */,
+				B80832B52BFCAE7700F3439F /* Book.swift in Sources */,
+				B8FAED8E2BFA2698003FDE0F /* AppDelegate.swift in Sources */,
+				B8FDBEA32BFF90C200CAA275 /* CommentsViewController.swift in Sources */,
+				B80832CE2BFE695800F3439F /* BookDetailViewController.swift in Sources */,
+				B8FDBEAD2C00A36500CAA275 /* UIView+CornerRadius.swift in Sources */,
+				B8FAED902BFA2698003FDE0F /* SceneDelegate.swift in Sources */,
+				B8FDBEAB2C00A35600CAA275 /* UIColor+hex.swift in Sources */,
+				B8FDBEA72BFF931E00CAA275 /* CommentsTableViewCell.swift in Sources */,
+				B8FDBEC72C11E46300CAA275 /* New for checking.swift in Sources */,
+				B80832AD2BFC9A0A00F3439F /* GoodReadsHeaderCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8FAED932BFA2698003FDE0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FAED942BFA2698003FDE0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8FAED982BFA2699003FDE0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8FAED992BFA2699003FDE0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8FAED9C2BFA2699003FDE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8FAED9D2BFA2699003FDE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8FAED9F2BFA2699003FDE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoodReadsTV/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvechorkofedora.GoodReadsTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8FAEDA02BFA2699003FDE0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoodReadsTV/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tvechorkofedora.GoodReadsTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8FAED852BFA2698003FDE0F /* Build configuration list for PBXProject "GoodReadsTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FAED9C2BFA2699003FDE0F /* Debug */,
+				B8FAED9D2BFA2699003FDE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FAED9E2BFA2699003FDE0F /* Build configuration list for PBXNativeTarget "GoodReadsTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8FAED9F2BFA2699003FDE0F /* Debug */,
+				B8FAEDA02BFA2699003FDE0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8FAED822BFA2698003FDE0F /* Project object */;
+}

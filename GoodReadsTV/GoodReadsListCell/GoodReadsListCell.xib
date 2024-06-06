@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="GoodReadsListCell" customModule="GoodReadsTV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Dv-Qh-44U">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="64"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weywardThumbnail" translatesAutoresizingMaskIntoConstraints="NO" id="vBe-yU-vQs">
+                                <rect key="frame" x="16" y="8" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="6Gf-Mt-EXo"/>
+                                    <constraint firstAttribute="width" constant="48" id="7Lb-lh-n17"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weyward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b0Z-9D-bJy">
+                                <rect key="frame" x="80" y="4" width="59" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LlT-Ia-oK0">
+                                <rect key="frame" x="80" y="26" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="dVy-aj-bXB"/>
+                                    <constraint firstAttribute="width" constant="14" id="sv1-Ye-ZzR"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="tick-square"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emilia Hart - 7h 5m" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFf-lY-9bY">
+                                <rect key="frame" x="101" y="24" width="116.33333333333331" height="15.666666666666664"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="0.70366825331125826" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pcq-bc-Dg2">
+                                <rect key="frame" x="357" y="18" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="ECS-0f-BBs"/>
+                                    <constraint firstAttribute="height" constant="28" id="fn6-QQ-xl1"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="more-square"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.039215686274509803" green="0.047058823529411764" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b0Z-9D-bJy" firstAttribute="leading" secondItem="vBe-yU-vQs" secondAttribute="trailing" constant="16" id="1th-Kl-6aB"/>
+                            <constraint firstItem="UFf-lY-9bY" firstAttribute="top" secondItem="b0Z-9D-bJy" secondAttribute="bottom" constant="4" id="T8u-XJ-B4a"/>
+                            <constraint firstAttribute="trailing" secondItem="Pcq-bc-Dg2" secondAttribute="trailing" constant="8" id="UEO-H3-BMt"/>
+                            <constraint firstItem="LlT-Ia-oK0" firstAttribute="top" secondItem="b0Z-9D-bJy" secondAttribute="bottom" constant="6" id="beA-fZ-lgK"/>
+                            <constraint firstItem="b0Z-9D-bJy" firstAttribute="top" secondItem="9Dv-Qh-44U" secondAttribute="top" constant="4" id="d0h-Cb-p3B"/>
+                            <constraint firstItem="LlT-Ia-oK0" firstAttribute="leading" secondItem="vBe-yU-vQs" secondAttribute="trailing" constant="16" id="h4i-IH-egA"/>
+                            <constraint firstItem="UFf-lY-9bY" firstAttribute="leading" secondItem="LlT-Ia-oK0" secondAttribute="trailing" constant="7" id="pby-zj-BKl"/>
+                            <constraint firstItem="vBe-yU-vQs" firstAttribute="leading" secondItem="9Dv-Qh-44U" secondAttribute="leading" constant="16" id="wlW-wr-Owj"/>
+                            <constraint firstItem="vBe-yU-vQs" firstAttribute="centerY" secondItem="9Dv-Qh-44U" secondAttribute="centerY" id="zd4-pF-lA0"/>
+                            <constraint firstItem="Pcq-bc-Dg2" firstAttribute="centerY" secondItem="9Dv-Qh-44U" secondAttribute="centerY" id="zo7-xP-Diz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9Dv-Qh-44U" secondAttribute="trailing" id="KJ4-Ps-iJk"/>
+                    <constraint firstAttribute="bottom" secondItem="9Dv-Qh-44U" secondAttribute="bottom" id="R29-X3-ol8"/>
+                    <constraint firstItem="9Dv-Qh-44U" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="d3X-VB-8Yf"/>
+                    <constraint firstItem="9Dv-Qh-44U" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gX5-UY-ae1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="coverImage" destination="vBe-yU-vQs" id="P0H-7k-06Y"/>
+                <outlet property="subTitleLbl" destination="UFf-lY-9bY" id="BRb-bH-p9x"/>
+                <outlet property="titleLbl" destination="b0Z-9D-bJy" id="vPc-83-8c4"/>
+            </connections>
+            <point key="canvasLocation" x="54.198473282442748" y="-11.267605633802818"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="more-square" width="28" height="28"/>
+        <image name="tick-square" width="14" height="14"/>
+        <image name="weywardThumbnail" width="48" height="48"/>
+    </resources>
+</document>
