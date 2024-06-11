@@ -16,6 +16,8 @@ class CommentsViewController: UIViewController, UIGestureRecognizerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+ //       addBtn.imageView!.tintColor = .red
+        
         configureTableView()
         comments = fillCommentsDataSource()
                 
@@ -44,10 +46,10 @@ class CommentsViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     private func setAddCommentButton(enabled isEnabled: Bool) {
-        if isEnabled {
+        if  isEnabled {
                 addBtn.tintColor = .white
             } else {
-                addBtn.tintColor = UIColor(hex: "#FFFFFF")?.withAlphaComponent(0.015)
+                addBtn.tintColor = UIColor(hex: "#FFFFFF")?.withAlphaComponent(0.5)
             }
     }
     
@@ -100,54 +102,42 @@ class CommentsViewController: UIViewController, UIGestureRecognizerDelegate {
             title: "@dayganat - 2 months ago",
             subtitle: "Such a magnificent book. Haunting and hugely underrated",
             authors: [],
-            coverImage: .dAvatar,
-            rating: "",
-            items: [""]
-            ))
+            coverImage: .dAvatar
+        ))
         
         comments.append(Book(
             title: "@s.penkevich - 1 month ago",
             subtitle: "I find it hard to stay positive in this rubbish world.",
             authors: [],
-            coverImage: .daAvatar,
-            rating: "",
-            items: [""]
+            coverImage: .daAvatar
         ))
         
         comments.append(Book(
             title: "@CanadianJen - 3 months ago",
             subtitle: "Allende is a master at spinning an epic story. I really wanted this one to ...",
             authors: [],
-            coverImage: .dbAvatar,
-            rating: "",
-            items: [""]
+            coverImage: .dbAvatar
         ))
         
         comments.append(Book(
             title: "@theoverbookedbibliophile - 12 hours ago",
             subtitle: "In I938 Vienna, in the aftermath of Kristallnacht, six-year-old Samuel...",
             authors: [],
-            coverImage: .dcAvatar,
-            rating: "",
-            items: [""]
+            coverImage: .dcAvatar
         ))
         
         comments.append(Book(
             title: "@AngelaM - 3 months ago",
             subtitle: "In two different times, in two different places, under different and horrible...",
             authors: [],
-            coverImage: .deAvatar,
-            rating: "",
-            items: [""]
+            coverImage: .deAvatar
         ))
         
         comments.append(Book(
             title: "@Helga - 3 months ago",
             subtitle: "There is a star where the people and the animals all live happily, and it’s even ...",
             authors: [],
-            coverImage: .dfAvatar,
-            rating: "",
-            items: [""]
+            coverImage: .dfAvatar
         ))
             
             return comments
@@ -173,9 +163,7 @@ class CommentsViewController: UIViewController, UIGestureRecognizerDelegate {
             title: "@tvechorkofedora - 12 hours ago",
             subtitle: text,
             authors: [],
-            coverImage: .smallAvatar,
-            rating: "",
-            items: [""]
+            coverImage: .smallAvatar
         )
             comments.append(newComment)
         

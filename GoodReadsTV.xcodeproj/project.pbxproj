@@ -24,7 +24,6 @@
 		B8FDBEA72BFF931E00CAA275 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDBEA42BFF931E00CAA275 /* CommentsTableViewCell.swift */; };
 		B8FDBEAB2C00A35600CAA275 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDBEAA2C00A35600CAA275 /* UIColor+hex.swift */; };
 		B8FDBEAD2C00A36500CAA275 /* UIView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDBEAC2C00A36500CAA275 /* UIView+CornerRadius.swift */; };
-		B8FDBEC72C11E46300CAA275 /* New for checking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FDBEC62C11E46300CAA275 /* New for checking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +46,6 @@
 		B8FDBEA52BFF931E00CAA275 /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
 		B8FDBEAA2C00A35600CAA275 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
 		B8FDBEAC2C00A36500CAA275 /* UIView+CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+CornerRadius.swift"; sourceTree = "<group>"; };
-		B8FDBEC62C11E46300CAA275 /* New for checking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New for checking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				B80832B42BFCAE7700F3439F /* Book.swift */,
-				B8FDBEC62C11E46300CAA275 /* New for checking.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,7 +232,6 @@
 				B8FAED902BFA2698003FDE0F /* SceneDelegate.swift in Sources */,
 				B8FDBEAB2C00A35600CAA275 /* UIColor+hex.swift in Sources */,
 				B8FDBEA72BFF931E00CAA275 /* CommentsTableViewCell.swift in Sources */,
-				B8FDBEC72C11E46300CAA275 /* New for checking.swift in Sources */,
 				B80832AD2BFC9A0A00F3439F /* GoodReadsHeaderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

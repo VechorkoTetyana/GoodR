@@ -11,11 +11,13 @@ class GoodReadsViewController: UIViewController {
   
     var books: [Book] = []
     var lists: [Book] = []
+    var details: [Book] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         lists = bookLists()
         books = rebooks()
+        details = bookDetails()
     
         configureTableView()
         }
@@ -29,11 +31,11 @@ class GoodReadsViewController: UIViewController {
         goodReadsUITableView.register(UINib(nibName: "GoodReadsListCell", bundle: nil), forCellReuseIdentifier: "GoodReadsListCell")
     }
     
-    func present(with bookLists: Book) {
+    func present(with audioList: Book) {
         let goodReadsViewController = UIStoryboard(name: "Main", bundle: nil)
             .instantiateViewController(withIdentifier: "BookDetailViewController") as! BookDetailViewController
         
-        goodReadsViewController.bookLists = bookLists
+        goodReadsViewController.bookDetails = audioList
         
         goodReadsViewController.modalPresentationStyle = .fullScreen
         
@@ -49,9 +51,7 @@ class GoodReadsViewController: UIViewController {
             title: "Liked Books",
             subtitle: "Books you like in any GoodReads app will show here. You can change this in Settings.",
             authors: [],
-            coverImage: .smsSearch,
-            rating: "",
-            items: [""]
+            coverImage: .smsSearch
         ))
         
         return books
@@ -64,94 +64,113 @@ class GoodReadsViewController: UIViewController {
         lists.append(Book(
             title: "Weyward",
             subtitle: "Emilia Hart - 7h 5m",
-            authors: [],
-            coverImage: .weywardThumbnail,
-            rating: "",
-            items: [""]
+            authors: ["Emilia Hart"],
+            coverImage: .weywardThumbnail
         ))
         
         lists.append(Book(
             title: "The Covenant of Water",
             subtitle: "Abraham Verghese - 2h 3m left",
-            authors: [],
-            coverImage: .covenantThumbnail,
-            rating: "",
-            items: [""]
+            authors: ["Abraham Verghese"],
+            coverImage: .covenantThumbnail
         ))
         
         lists.append(Book(
             title: "Lady Tan’s Circle of Women",
             subtitle: "Lisa See - 5h 5m",
-            authors: [],
-            coverImage: .ladyTansCircleThumbnail,
-            rating: "",
-            items: [""]
+            authors: ["Lisa See"],
+            coverImage: .ladyTansCircleThumbnail
         ))
         
         lists.append(Book(
             title: "The Heaven & Earth Grocery Store",
             subtitle: "James McBride - 2h 23m",
-            authors: [],
-            coverImage: .theHeavenAndEarthThumbnail,
-            rating: "",
-            items: [""]
+            authors: ["James McBride"],
+            coverImage: .theHeavenAndEarthThumbnail
         ))
         
         lists.append(Book(
             title: "The Echo of Old Books",
             subtitle: "Barbara Davis - 5h 2m",
-            authors: [],
-            coverImage: .theEchoThumbnail,
-            rating: "",
-            items: [""]
+            authors: ["Barbara Davis"],
+            coverImage: .theEchoThumbnail
         ))
         
         lists.append(Book(
             title: "The House of Eve",
             subtitle: "Sadeqa Johnson - 4h 5m",
-            authors: [],
-            coverImage: .theHouseOfEveThumbnail,
-            rating: "",
-            items: [""]
+            authors: ["Sadeqa Johnson"],
+            coverImage: .theHouseOfEveThumbnail
         ))
         
         lists.append(Book(
             title: "The Wind Knows My Name",
             subtitle: "Isabel Allende - 4h 5m",
-            authors: [],
-            coverImage: .theWindKnowsMyNameThumbnail,
-            rating: "",
-            items: [""]
-        ))
-        
-        lists.append(Book(
-            title: "The Wind Knows My Name",
-            subtitle: "Isabel Allende - 4h 5m",
-            authors: [],
-            coverImage: .theWindKnowsMyNameThumbnail,
-            rating: "",
-            items: [""]
-        ))
-        lists.append(Book(
-            title: "The Wind Knows My Name",
-            subtitle: "Isabel Allende - 4h 5m",
-            authors: [],
-            coverImage: .theWindKnowsMyNameThumbnail,
-            rating: "",
-            items: [""]
-        ))
-        lists.append(Book(
-            title: "The Wind Knows My Name",
-            subtitle: "Isabel Allende - 4h 5m",
-            authors: [],
-            coverImage: .theWindKnowsMyNameThumbnail,
-            rating: "",
-            items: [""]
+            authors: ["Isabel Allende"],
+            coverImage: .theWindKnowsMyNameThumbnail
         ))
         
         return lists
     }
+
+
+private func bookDetails() -> [Book] {
+    
+    var details = [Book]()
+    
+    details.append(Book(
+        title: "Weyward",
+        subtitle: "Emilia Hart",
+        authors: ["Emilia Hart"],
+        coverImage: .bookCover1
+    ))
+    
+    details.append(Book(
+        title: "The Covenant of Water",
+        subtitle: "Abraham Verghese",
+        authors: ["Abraham Verghese"],
+        coverImage: .bookCover2
+    ))
+    
+    details.append(Book(
+        title: "Lady Tan’s Circle of Women",
+        subtitle: "Lisa See",
+        authors: ["Lisa See"],
+        coverImage: .bookCover3
+    ))
+    
+    details.append(Book(
+        title: "The Heaven & Earth Grocery Store",
+        subtitle: "James McBride",
+        authors: ["James McBride"],
+        coverImage: .bookCover4
+    ))
+    
+    details.append(Book(
+        title: "The Echo of Old Books",
+        subtitle: "Barbara Davis",
+        authors: ["Barbara Davis"],
+        coverImage: .bookCover5
+    ))
+    
+    details.append(Book(
+        title: "The House of Eve",
+        subtitle: "Sadeqa Johnson",
+        authors: ["Sadeqa Johnson"],
+        coverImage: .bookCover6
+    ))
+    
+    details.append(Book(
+        title: "The Wind Knows My Name",
+        subtitle: "Isabel Allende",
+        authors: ["Isabel Allende"],
+        coverImage: .bookCover7
+    ))
+    
+    return details
+    }
 }
+
 
 extension GoodReadsViewController: UITableViewDataSource {
    
@@ -203,7 +222,7 @@ extension GoodReadsViewController: UITableViewDataSource {
 extension GoodReadsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let audioList = lists[indexPath.row]
+        let audioList = details[indexPath.row]
         present(with: audioList)
     }
     

@@ -54,10 +54,10 @@
 You can change this in Settings.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.65490196078431373" green="0.68235294117647061" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="0.039215686274509803" green="0.047058823529411764" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.039215686274509803" green="0.047058823529411764" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="GFb-dZ-I2o" firstAttribute="centerX" secondItem="biD-0S-NMZ" secondAttribute="centerX" id="3hQ-gC-cgf"/>
                             <constraint firstItem="YXW-Ko-T3L" firstAttribute="top" secondItem="id1-SV-iZa" secondAttribute="bottom" constant="14" id="639-Fj-g5z"/>
@@ -82,6 +82,7 @@ You can change this in Settings.</string>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.039215686274509803" green="0.047058823529411764" blue="0.17254901960784313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <connections>
                 <outlet property="backgrounrCircleImageMiddleView" destination="d6f-xJ-KAT" id="YO8-YU-NS4"/>
                 <outlet property="backgrounrCircleImageView" destination="GFb-dZ-I2o" id="Flg-JU-wTD"/>

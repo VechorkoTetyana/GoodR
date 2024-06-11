@@ -1,28 +1,26 @@
 import UIKit
 
-struct BookFlow {
-    let title: String
-    let subtitle: String
-    let coverImage: UIImage
-}
-
 class BookDetailViewController: UIViewController {
     
     @IBOutlet weak var coverImageView: UIImageView!
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var subtitleLbl: UILabel!
     
-    var book: BookFlow!
-    var bookLists: Book!
+    var bookDetails: Book!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        configure()
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
     
     func configure() {
-        titleLbl.text = book.title
-        subtitleLbl.text = book.subtitle
-        coverImageView.image = book.coverImage
+        titleLbl.text = bookDetails.title
+        subtitleLbl.text = bookDetails.subtitle
+        coverImageView.image = bookDetails.coverImage
     }
     
     @IBAction func downBtnTapped(_ sender: Any) {
