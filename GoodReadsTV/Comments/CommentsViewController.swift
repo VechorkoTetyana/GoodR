@@ -15,9 +15,7 @@ class CommentsViewController: UIViewController, UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
- //       addBtn.imageView!.tintColor = .red
-        
+                
         configureTableView()
         comments = fillCommentsDataSource()
                 
@@ -86,7 +84,7 @@ class CommentsViewController: UIViewController, UIGestureRecognizerDelegate {
         if isKeyBoardHidden {
             addNewItemSaveAreaViewBottomConstraint.constant = 0 + 20
         } else {
-            // if the keyboard is presented
+        // if the keyboard is presented
             addNewItemSaveAreaViewBottomConstraint.constant = -1 * (endFrame.height - view.safeAreaInsets.bottom + 8)
         }
         UIView.animate(withDuration: duration) {

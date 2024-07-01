@@ -5,7 +5,6 @@ class GoodReadsHeaderCell: UITableViewCell {
     @IBOutlet weak var backgrounrCircleImageView: UIImageView!
     @IBOutlet weak var backgrounrCircleImageMiddleView: UIImageView!
     @IBOutlet weak var smsSearchImageView: UIImageView!
-    
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var subTitleLbl: UILabel!
     

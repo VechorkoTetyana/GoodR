@@ -8,7 +8,6 @@ class CommentsTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
     
     func configureTableView(with book: Book) {

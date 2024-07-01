@@ -13,6 +13,7 @@
 		B80832B32BFCA72A00F3439F /* GoodReadsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B80832B12BFCA72A00F3439F /* GoodReadsListCell.xib */; };
 		B80832B52BFCAE7700F3439F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80832B42BFCAE7700F3439F /* Book.swift */; };
 		B80832CE2BFE695800F3439F /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80832CD2BFE695800F3439F /* BookDetailViewController.swift */; };
+		B8DE131A2C32B8CF00E59B82 /* Checking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE13192C32B8CF00E59B82 /* Checking.swift */; };
 		B8FAED8E2BFA2698003FDE0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FAED8D2BFA2698003FDE0F /* AppDelegate.swift */; };
 		B8FAED902BFA2698003FDE0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FAED8F2BFA2698003FDE0F /* SceneDelegate.swift */; };
 		B8FAED922BFA2698003FDE0F /* GoodReadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FAED912BFA2698003FDE0F /* GoodReadsViewController.swift */; };
@@ -33,6 +34,7 @@
 		B80832B12BFCA72A00F3439F /* GoodReadsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoodReadsListCell.xib; sourceTree = "<group>"; };
 		B80832B42BFCAE7700F3439F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		B80832CD2BFE695800F3439F /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		B8DE13192C32B8CF00E59B82 /* Checking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checking.swift; sourceTree = "<group>"; };
 		B8FAED8A2BFA2698003FDE0F /* GoodReadsTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodReadsTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8FAED8D2BFA2698003FDE0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8FAED8F2BFA2698003FDE0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				B8FAED962BFA2699003FDE0F /* Assets.xcassets */,
 				B8FAED982BFA2699003FDE0F /* LaunchScreen.storyboard */,
 				B8FAED9B2BFA2699003FDE0F /* Info.plist */,
+				B8DE13192C32B8CF00E59B82 /* Checking.swift */,
 			);
 			path = GoodReadsTV;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				B80832B52BFCAE7700F3439F /* Book.swift in Sources */,
 				B8FAED8E2BFA2698003FDE0F /* AppDelegate.swift in Sources */,
 				B8FDBEA32BFF90C200CAA275 /* CommentsViewController.swift in Sources */,
+				B8DE131A2C32B8CF00E59B82 /* Checking.swift in Sources */,
 				B80832CE2BFE695800F3439F /* BookDetailViewController.swift in Sources */,
 				B8FDBEAD2C00A36500CAA275 /* UIView+CornerRadius.swift in Sources */,
 				B8FAED902BFA2698003FDE0F /* SceneDelegate.swift in Sources */,
